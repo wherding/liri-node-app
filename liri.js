@@ -48,7 +48,7 @@ if (userCmd === "spotify-this-song") {
     console.log(data.tracks.items[0].album.name);
   });
 }
-}
+} 
 
 if (userCmd === "movie-this") {
   if (process.argv.length < 4) {
